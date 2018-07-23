@@ -1,6 +1,6 @@
 # ncform-demo
 
-> ncform's demo project
+> [ncform](https://github.com/vipshop/ncform)'s demo project
 
 ## Build Setup
 
