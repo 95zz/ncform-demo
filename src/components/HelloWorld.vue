@@ -13,6 +13,15 @@ export default {
         properties: {
           name: {
             type: 'string'
+          },
+          custom: {
+            type: 'string',
+            ui: {
+              widget: 'my-custom-comp',
+              widgetConfig: {
+                msg: 'hi'
+              }
+            }
           }
         }
       }

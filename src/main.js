@@ -7,9 +7,10 @@ import vueNcform from '@ncform/ncform'
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import ncformStdComps from '@ncform/ncform-theme-elementui'
+import myCustomComp from '@/components/myCustomComp' // 自定义的控件
 
 Vue.use(Element)
-Vue.use(vueNcform, { extComponents: ncformStdComps })
+Vue.use(vueNcform, { extComponents: Object.assign(ncformStdComps, {myCustomComp}) })
 
 Vue.config.productionTip = false
 
